@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/Users/Administrator/.conda/envs/motioncounter/python.exe:*)",
+      "Bash(pip show:*)"
+    ]
+  }
+}

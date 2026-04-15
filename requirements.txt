@@ -1,0 +1,10 @@
+# python==3.8+
+matplotlib==3.9.4
+mediapipe==0.10.5
+numpy==2.0.2
+opencv-contrib-python==4.13.0.92
+# opencv-python==4.13.0.92
+Pillow==11.3.0
+protobuf==3.20.3
+tqdm==4.67.3
+# 注意： opencv-python 与 opencv-contrib-python 通常只需安装其中一个（contrib 版本已包含 opencv-python的全部功能），两者同时存在可能引发冲突。如果项目不依赖 contrib 模块，可以删掉 opencv-python 那行；反之若只用 contrib版本，则删掉 opencv-python 即可。
